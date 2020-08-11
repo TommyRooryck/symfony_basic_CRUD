@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Gegenereerd op: 24 jul 2020 om 18:01
+-- Gegenereerd op: 11 aug 2020 om 22:46
 -- Serverversie: 10.4.13-MariaDB
 -- PHP-versie: 7.4.8
 
@@ -38,8 +38,8 @@ CREATE TABLE `article` (
 --
 
 INSERT INTO `article` (`id`, `title`, `body`) VALUES
-(1, 'Article One', 'This is the body for Article One'),
-(2, 'Article Two', 'This is the body for Article Two');
+(1, 'Article 1', 'This is the body for Article 1.'),
+(2, 'Article 2', 'This is the body for Article 2.');
 
 -- --------------------------------------------------------
 
@@ -84,7 +84,7 @@ ALTER TABLE `doctrine_migration_versions`
 -- AUTO_INCREMENT voor een tabel `article`
 --
 ALTER TABLE `article`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
